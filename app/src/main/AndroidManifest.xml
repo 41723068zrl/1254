@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Target" />
-        <activity android:name=".Present" />
+        <activity android:name=".Target" android:theme="@style/Base.Theme.AppCompat.Light.Dialog"/>
+        <activity android:name=".Present" android:theme="@style/Base.Theme.AppCompat.Light.Dialog"/>
         <activity android:name=".Record"></activity>
     </application>
 

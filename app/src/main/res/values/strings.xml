@@ -1,19 +1,19 @@
 <resources>
-    <string name="app_name">NewWork</string>
-    <string name="rdo_target_label">我的目标</string>
-    <string name="rdo_record_labe1">体重记录</string>
+    <string name="app_name">体重记录仪</string>
 
     <string name="target_labe1">我的目标</string>
-    <string name="target_label_2">42.0 KG</string>
     <string name="present_labe1">当前体重</string>
-    <string name="present_label_2">48.5 KG</string>
-    <string name="btn1">重设目标</string>
+    <string name="btn1">设置目标</string>
     <string name="btn2">记录体重</string>
     <string name="btn3">保存当前体重</string>
 
     <string name="textview1">设置目标</string>
     <string name="textview2">记录体重</string>
+    <string name="hint2">请设置您的目标</string>
+    <string name="hint1">请记录当前体重</string>
+
 
     <string name="save">保存</string>
     <string name="done">完成</string>
+    <string name="menuItem">查看历史记录</string>
 </resources>

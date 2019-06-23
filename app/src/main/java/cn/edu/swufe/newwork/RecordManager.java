@@ -4,8 +4,8 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class RecordManager {
@@ -61,4 +61,21 @@ public class RecordManager {
         db.close();
         return recordList;
     }
+
+//    public ArrayList<HashMap<String,String>> getList(){
+//        RecordItem item = new RecordItem();
+//        ArrayList<HashMap<String,String>> list=new ArrayList<HashMap<String, String>>();
+//        SQLiteDatabase db = dbHelper.getReadableDatabase();
+//        String selectQuery="SELECT"+item.getId()+","+item.getRecord()+"FROM"+TBNAME;
+//        Cursor cursor = db.query(TBNAME, null, null, null, null, null, null);
+//        if(cursor.moveToFirst()){
+//            do{
+//                HashMap<String,String> map=new HashMap<String, String>();
+//                map.put("record_id",cursor.getString())
+//            }
+//        }
+//
+//
+//
+//    }
 }

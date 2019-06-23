@@ -12,7 +12,6 @@ public class RecordItem {
         this.Record=Record;
     }
 
-
     public int getId() {
         return id;
     }

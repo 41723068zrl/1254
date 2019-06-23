@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_margin="50dp"
         android:text="@string/textview2"
         android:layout_marginTop="50dp"
         android:textSize="45dp"
@@ -28,6 +28,7 @@
         android:id="@+id/savePresent"
         android:layout_marginTop="20dp"
         android:layout_margin="30dp"
+        android:background="@drawable/shape1"
         android:layout_width="match_parent"
         android:onClick="savePresent"
         android:layout_height="wrap_content"
